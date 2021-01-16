@@ -1376,7 +1376,7 @@
             function T(e, t) { return function(r, n) { r("appUpdateAppConfig", (function(r) { r.app[e] = t })), l(n().app) } }
 
             function I(e, t, r) { return function(n, o) { n("updateCollapsibleIsOpen", (function(n) { n.app.collapsibleIsOpen[`${e}:${t}`] = r })), P(o().app) } }
-            var A = { selectedClashAPIConfigIndex: 0, clashAPIConfigs: [{ baseURL: "http://192.168.16.16:9090", secret: "123456", addedAt: 0 }], latencyTestUrl: "http://www.gstatic.com/generate_204", selectedChartStyleIndex: 0, theme: "dark", collapsibleIsOpen: {}, proxySortBy: "Natural", hideUnavailableProxies: !1, autoCloseOldConns: !1 };
+            var A = { selectedClashAPIConfigIndex: 0, clashAPIConfigs: [{ baseURL: "http://192.168.16.116:9090", secret: "123456", addedAt: 0 }], latencyTestUrl: "http://www.gstatic.com/generate_204", selectedChartStyleIndex: 0, theme: "dark", collapsibleIsOpen: {}, proxySortBy: "Natural", hideUnavailableProxies: !1, autoCloseOldConns: !1 };
 
             function L() {
                 var e = function() { try { var e = localStorage.getItem(u); if (!e) return; return JSON.parse(e) } catch (e) { return } }();
